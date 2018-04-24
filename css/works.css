@@ -4,7 +4,7 @@
 .text-item {grid-area: title;}
 .text-descr {grid-area: descr;}
 .text-descr-2 {grid-area: descr2;}
-.grid-global {grid-row-gap: 15px; margin-left: -8px;}
+.grid-global {grid-row-gap: 15px;}
 .img-line {grid-area: img-element;}
 .img-line-2 {grid-area: img-element-2;}
 .img-layout1 {grid-area: img01;}
