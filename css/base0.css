@@ -55,16 +55,6 @@
 @media all and (max-width: 700px){
 	.grid-global h1{margin: 25px 5vw 10px 5vw; text-align: center;}
 	.grid-global h2{	margin: 5px 5vw 10px 5vw;}
-
-@media all and (max-width: 500px){
-	video{
-		width: 55vw;
-    height: auto;
-    margin-top: 50px;}
-	.phone {
-		width: 40vw;
-		margin: 0px;
-	}
 }
 
 h1 {
