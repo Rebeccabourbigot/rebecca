@@ -49,6 +49,7 @@
 	.data {background-image: url("../img/fond-psc.jpg")}
 	.climax {background-image: url("../img/fond-psc.jpg")}
 	.blog {background-image: url("../img/fond-psc.jpg")}
+	.frus {background-image: url("../img/fond-frus.jpg")}
 	.weather {background-image: url("../img/fond-psc.jpg")}
 }
 
@@ -151,7 +152,7 @@ header {
 
 .backgd-items {
 	display: table;
-	margin-top: 170px;
+	margin-top: 200px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 100%;
@@ -174,6 +175,11 @@ header {
 	background-image: url("../img/fond-ecv-blog.png");
 	background-position: center;
 	margin-top: 170px;}
+.frus{
+	background-image: url("../img/fond-frus.jpg");
+	background-position: center;
+	margin-top: 200px;}
+
 .data{background-image: url("../img/fond-club.jpg");}
 
 #blog {
@@ -233,7 +239,7 @@ a:hover > h1 {
 .footer img {
 	width: 40px;
 	margin: 0 10px 0 10px;
-	opacity: 0.8;
+	opacity: 0.3;
 	transition: opacity 0.3s ease;
 	}
 .footer img:hover {
@@ -241,7 +247,7 @@ a:hover > h1 {
 }
 .footer {
 	grid-column: 1 / span 4;
-	grid-row: 12 / span 1;
+	grid-row: 13 / span 1;
 	justify-content: center;
 	margin: 50px auto 50px auto;
 	height: 40px;

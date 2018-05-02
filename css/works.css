@@ -2,7 +2,7 @@
 																				/* GLOBAL WORKS */
 
 .text-item {grid-area: title;}
-.text-descr {grid-area: descr;}
+.text-descr {grid-area: descr; margin-top: 40px;}
 .text-descr-2 {grid-area: descr2;}
 .grid-global {grid-row-gap: 15px; margin-left: -8px;}
 .img-line {grid-area: img-element;}
@@ -29,6 +29,7 @@
 .project04-details .climax-teaser {position: absolute; right: 15vw; top: 235px;}
 .project05-details .blog-video {position: absolute; right: 15vw; top: 215px; border-radius: 18px;}
 .project06-details .data-video {position: absolute; right: 15vw; top: 180px;}
+.project07-details .data-video {position: absolute; right: 15vw; top: 180px;}
 
 .close {
 	position: fixed;
@@ -52,7 +53,7 @@
 .project-details {
 	display: grid;
 	grid-template-columns: 10% 40% 40% 10%;
-  grid-template-rows: 350px repeat(10,auto);
+  grid-template-rows: 350px repeat(12,auto);
   grid-area: content;
 	grid-template-areas:
 		". title . ."
@@ -62,6 +63,7 @@
 		". descr2 descr2 ."
 		". wf-meteo wf-meteo ."
 		". icon-meteo icon-meteo ."
+		". descr3 descr3 ."
 		". img-pres img-pres ."
 		". img-element img-element ."
 		". icon2-meteo icon2-meteo ."
@@ -118,7 +120,7 @@
 	margin: 5vw auto 5vw auto;
 	grid-area: search-meteo;
 }
-.text-descr-2 {
+.text-descr-2, .text-descr-3 {
 	margin: 3vw 23%;
 }
 .img-line {
@@ -150,12 +152,12 @@
 .bg-img {
 	background-color: #D8EFEA;
 	grid-column: 1 / span 4;
-	grid-row: 9 / span 1;}
+	grid-row: 10 / span 1;}
 
 .bg-img-2 {
 	background-color: #f1efef;
 	grid-column: 2 / span 2;
-	grid-row: 11 / span 1;}
+	grid-row: 12 / span 1;}
 
 .img-overflow {
 	grid-area: overflow;
@@ -202,17 +204,18 @@
 
 .fond-tab {
 	grid-column: 2 / span 2;
-	grid-row: 8 / span 1;
+	grid-row: 9 / span 1;
 	justify-self:stretch;
 	height: 40vw;}
 .tableau {
 	grid-column: 2 / span 2;
-	grid-row: 8 / span 1;
+	grid-row: 9 / span 1;
 	justify-self:center;
 	align-self: center;
 	width: 54%;
 	box-shadow: 3px 3px 9px #808080;}
 
+.text-descr-3 {grid-area: descr3;}
 
 																						/* WORK 02 */
 
@@ -367,6 +370,26 @@ grid-row-gap: 40px;}
 grid-column: 1 / span 4; grid-row: 1 / span 1;
 z-index: -1;
 background-color: #e26a48;}
+
+																							/* WORK 07 */
+.project07-details{
+display: grid;
+grid-template-columns: 10% 40% 40% 10%;
+grid-template-rows: 350px repeat(3,auto);
+grid-area: content;
+grid-template-areas:
+". title . ."
+". descr . ."
+". . . ."
+". . . .";
+grid-row-gap: 10px;
+grid-column-gap: 10px;}
+
+.project07-details .backgd-header {
+grid-column: 1 / span 4; grid-row: 1 / span 1;
+z-index: -1;
+background-color: #bfb8ab;}
+#work07 video {margin-top: 30px;}
 
 .img-27ana1 {grid-area: img-27ana1; background-image: url("../img/06/analyse1.jpg"); width: 100%; height: 43vw; margin: 0 auto 0 auto;}
 .img-27ana2 {grid-area: img-27ana2; background-image: url("../img/06/analyse2.jpg"); width: 100%; height: 43vw; margin: 0 auto 0 auto;}
