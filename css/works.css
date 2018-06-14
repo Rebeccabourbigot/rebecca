@@ -3,7 +3,7 @@
 
 .text-item {grid-area: title;}
 .text-descr {grid-area: descr; margin-top: 40px; margin-bottom: 40px;}
-.text-descr-2 {grid-area: descr2;}
+.text-descr2 {grid-area: descr2;}
 .grid-global {grid-row-gap: 15px; margin-left: -8px;}
 .img-line {grid-area: img-element;}
 .img-line-2 {grid-area: img-element-2;}
@@ -72,8 +72,7 @@
 
 .project-details .backgd-header {
 	grid-column: 1 / span 4; grid-row: 1 / span 1;
-	z-index: -1;
-	background-color: #a1e0d1;}
+	z-index: -1; background-color: #a1e0d1;}
 
 .logo-meteo {
 	display: flex;
@@ -84,10 +83,7 @@
 	padding: 2vw 5vw 2vw 5vw;
 	margin: 3vw auto 3vw auto;
 }
-.fd-logo-meteo {
-	background-color: #C3F1E6;
-	grid-area: logo-meteo;
-}
+.fd-logo-meteo { background-color: #C3F1E6; grid-area: logo-meteo;}
 .wf-meteo {
 	display: flex;
 	background-color: #F5F5F5;
@@ -101,9 +97,7 @@
 	padding: 3vw 10% 3vw 10%;
 	grid-area: icon-meteo;
 }
-.icon2-meteo {
-	background-color: #a8e6d6;
-	grid-area: icon2-meteo;
+.icon2-meteo { background-color: #a8e6d6; grid-area: icon2-meteo;
 }
 .icon2-meteo img{
 	display: flex;
@@ -120,9 +114,8 @@
 	margin: 5vw auto 5vw auto;
 	grid-area: search-meteo;
 }
-.text-descr-2, .text-descr-3 {
-	margin: 3vw 23%;
-}
+.text-descr2, .text-descr3 { margin: 3vw 23%;}
+
 .img-line {
 	position: relative;
 	display: grid;
@@ -215,7 +208,7 @@
 	width: 54%;
 	box-shadow: 3px 3px 9px #808080;}
 
-.text-descr-3 {grid-area: descr3;}
+.text-descr3 {grid-area: descr3;}
 
 																						/* WORK 02 */
 
@@ -332,7 +325,7 @@ grid-template-areas:
 ;
 grid-row-gap: 40px;}
 
-.cl-hands {grid-area: cl-hands; width: 80%; margin: 0 auto; padding: 5vw 10%; background-color: #f3ead7;}
+.cl-hands {grid-area: cl-hands; width: 80%; margin: 0 auto; padding: 5vw 10%;}
 .cl-veggie {grid-area: cl-veggie; width: 40vw; margin: 5vw auto 0 auto; display: block;}
 .cl-cow {grid-area: cl-cow; width: 40vw; margin: 0 auto 5vw auto; display: block;}
 .bkgd-veggie {grid-column: 2 / span 2; grid-row: 4 / span 2; background-color: #1B2E35;}
@@ -342,16 +335,16 @@ grid-row-gap: 40px;}
 .cl-lafemme {grid-area: cl-lafemme; width: 30vw; margin: 5vw auto; position: relative; }
 .bkgd-mapsv1 {grid-column: 2 / span 2; grid-row: 8 / span 1; background-color: #f3ead7; mix-blend-mode: multiply;}
 .cl-mapsV1 {grid-area: cl-mapsV1; width: 40vw; margin: auto;}
-.cl-elements {grid-area: cl-elements; width: 90%; padding: 0 5%; margin: auto; background-color: #e8e1d2;}
-.cl-maps {grid-area: cl-maps; width: 80%; background-color: #52504b; padding: 5% 10%;}
+.cl-elements {grid-area: cl-elements; width: 90%; padding: 0 5%; margin: auto; background-color: #f3ead7;}
+.cl-maps {grid-area: cl-maps; width: 100%;}
 .cl-icones {grid-area: cl-icones; width: 70%; padding:5vw 15%; margin: auto; background: #f3ead7;}
 .text-descr-2 {grid-area: cl-descr2; margin: 3vw 23%;}
-.bkgd-lafemme {grid-column: 2 / span 2; grid-row: 13 / span 1; background-color: #f3ead7; margin-top: 20%; height: 60%;}
+.bkgd-lafemme {grid-column: 2 / span 2; grid-row: 13 / span 1; background-color: #1B2E35; margin-top: 20%; height: 60%;}
 .bkgd-isaac {grid-column: 2 / span 2; grid-row: 14 / span 1; background-color: #1B2E35;}
 .cl-isaac {grid-area: cl-isaac; width: 60%; position: relative; margin:5vw auto;}
 .cl-interdits {grid-area: cl-interdits; width: 30vw; margin:5vw auto;}
 .bkgd-interdits {grid-column: 2 / span 2; grid-row: 16 / span 1; background-color: #1B2E35; }
-.cl-details {grid-area: cl-details; width: 60%; padding: 5vw 20%; margin:0 auto; background-color: #032328;}
+.cl-details {grid-area: cl-details; width: 60%; padding: 5vw 20%; margin:0 auto; background-color: #011c1f;}
 .cl-tableau {grid-area: cl-tableau; width: 70%; padding: 5vw 15%; background-color: #1B2E35;}
 
 .project04-details .backgd-header {
@@ -371,8 +364,12 @@ grid-area: content;
 grid-template-areas:
 ". title . ."
 ". descr . ."
-". . . ."
-". . . .";
+". persona persona ."
+". bl-menu bl-menu ."
+". blog-wf-2 blog-wf-2 ."
+". atom atom ."
+". wf-search wf-search ."
+". blog-wf-1 blog-wf-1 .";
 grid-row-gap: 10px;
 grid-column-gap: 10px;}
 
@@ -381,6 +378,24 @@ grid-column: 1 / span 4; grid-row: 1 / span 1;
 z-index: -1;
 background-color: #fff7a4;}
 #work05 video {border-radius: 18px;}
+
+.persona {grid-area: persona; width: 100%;}
+.menu {grid-area: bl-menu; width: 40vw; margin: 0 auto; padding: 3vw 20vw; background-color: #ebebeb; margin: 3vw 0;}
+.atom {grid-area: atom; width: 100%;}
+.wf-search {grid-area: wf-search; width: 70%; margin: 15% auto 0 auto; box-shadow: 1px 1px 9px #e4e2e2}
+.bkgd-search {grid-column: 2 / span 2; grid-row: 7 / span 1; height: 50%; background-color: #ebebeb; margin-top: 6vw;}
+.blog-wf-1, .blog-wf-2 {
+	position: relative;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 5vw;
+  padding: 5vw 9vw;
+  background-color: #EAEBED;}
+.blog-wf-1 {grid-area: blog-wf-1; margin: 10vw 0 3vw 0	;}
+.blog-wf-2 {grid-area: blog-wf-2; height: 35%; margin-bottom: 5vw;}
+.blog-wf-1 img {width: 100%; box-shadow: 1px 2px 4px #d8d8d8}
+.blog-wf-2 img {width: 100%; box-shadow: 1px 2px 4px #d8d8d8}
+.blog-wf #event {margin-top: 6vw;}
 
 																							/* WORK 03 */
 
