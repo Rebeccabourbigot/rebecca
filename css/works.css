@@ -52,7 +52,7 @@
 
 .project-details {
 	display: grid;
-	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 350px repeat(12,auto);
   grid-area: content;
 	grid-template-areas:
@@ -214,7 +214,7 @@
 
 .project02-details{
 	display: grid;
-	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-columns:25% 25% 25% 25%;
   grid-template-rows: 350px repeat(3,auto);
   grid-area: content;
 	grid-template-areas:
@@ -253,7 +253,7 @@
 
 .project03-details{
 	display: grid;
-	grid-template-columns: 10% 40% 40% 10%;
+	grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 350px repeat(7,auto);
   grid-area: content;
 	grid-template-areas:
@@ -301,7 +301,7 @@
 #work04 {padding-top: 100px;}
 .project04-details{
 display: grid;
-grid-template-columns: 10% 40% 40% 10%;
+grid-template-columns: 25% 25% 25% 25%;
 grid-template-rows: 350px auto repeat(10,auto);
 grid-area: content;
 grid-template-areas:
@@ -358,7 +358,7 @@ background-color: #1b3e4e;}
 
 .project05-details{
 display: grid;
-grid-template-columns: 10% 40% 40% 10%;
+grid-template-columns: 25% 25% 25% 25%;
 grid-template-rows: 350px repeat(3,auto);
 grid-area: content;
 grid-template-areas:
@@ -401,7 +401,7 @@ background-color: #fff7a4;}
 
 .project06-details{
 display: grid;
-grid-template-columns: 10% 40% 40% 10%;
+grid-template-columns: 25% 25% 25% 25%;
 grid-template-rows: 350px auto repeat(6,auto);
 grid-area: content;
 grid-template-areas:
@@ -453,7 +453,7 @@ background-color: #e26a48;}
 																							/* WORK 07 */
 .project07-details{
 display: grid;
-grid-template-columns: 10% 40% 40% 10%;
+grid-template-columns: 25% 25% 25% 25%;
 grid-template-rows: 350px repeat(3,auto);
 grid-area: content;
 grid-template-areas:
