@@ -52,7 +52,7 @@
 
 .project-details {
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-columns: auto 500px 500px auto;
   grid-template-rows: 350px repeat(12,auto);
   grid-area: content;
 	grid-template-areas:
@@ -214,7 +214,7 @@
 
 .project02-details{
 	display: grid;
-	grid-template-columns:25% 25% 25% 25%;
+	grid-template-columns: auto 500px 500px auto;
   grid-template-rows: 350px repeat(3,auto);
   grid-area: content;
 	grid-template-areas:
@@ -235,7 +235,7 @@
 	display: grid;
 	grid-area: img-motion;
 	grid-template-columns: 33% 33% 33%;
-  grid-template-rows: repeat(3, 15vw);
+  grid-template-rows: repeat(3, 330px);
 	grid-template-areas: "img-m01 img-m02 img-m03" "img-m04 img-m05 img-m06" "img-m07 img-m08 img-m09";}
 .img-m01 {grid-area: img-m01; background-image: url("../img/02/pastel.png"); background-size: cover; background-position: center;}
 .img-m02 {grid-area: img-m02; background-image: url("../img/02/peyber.png"); background-size: cover; background-position: center;}
@@ -253,7 +253,7 @@
 
 .project03-details{
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-columns: auto 500px 500px auto;
   grid-template-rows: 350px repeat(7,auto);
   grid-area: content;
 	grid-template-areas:
@@ -301,7 +301,7 @@
 #work04 {padding-top: 100px;}
 .project04-details{
 display: grid;
-grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: auto 500px 500px auto;
 grid-template-rows: 350px auto repeat(10,auto);
 grid-area: content;
 grid-template-areas:
@@ -358,7 +358,7 @@ background-color: #1b3e4e;}
 
 .project05-details{
 display: grid;
-grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: auto 500px 500px auto;
 grid-template-rows: 350px repeat(3,auto);
 grid-area: content;
 grid-template-areas:
@@ -401,7 +401,7 @@ background-color: #fff7a4;}
 
 .project06-details{
 display: grid;
-grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: auto 500px 500px auto;
 grid-template-rows: 350px auto repeat(6,auto);
 grid-area: content;
 grid-template-areas:
@@ -427,7 +427,7 @@ background-color: #e26a48;}
 
 .dt-analyse {grid-area: dt-analyse; width: 100%; }
 .dt-portrait {grid-area: dt-portrait;}
-.bkgd-portrait {grid-column: 2 / span 2; grid-row: 4 / span 1; margin-bottom: 20%; background: #e26a48;}
+.bkgd-portrait {grid-column: 2 / span 2; grid-row: 4 / span 1; margin-bottom: 15%; background: #e26a48;}
 .dt-icones {grid-area: dt-icones; width: 100%; margin-top: 5vw;}
 .dt-aff-section {
 	grid-area: aff-section;
@@ -440,20 +440,20 @@ background-color: #e26a48;}
 .dt-aff-section img {width: 100%; box-shadow: 2px 2px 6px #d0d0d0;}
 .dt-img1 {grid-area: dt-img1; width: 100%;}
 .dt-img2 {grid-area: dt-img2; width: 100%;}
-.dt-schema {grid-area: dt-schema; width: 40vw; display: block; margin: 5vw;}
+.dt-schema {grid-area: dt-schema; width: 800px; display: block; margin: 100px;}
 .dt-aff1-full {grid-area: dt-aff1-full; width: 40vw;}
 .dt-aff2-full {grid-area: dt-aff2-full; width: 40vw;}
 .dt-story {grid-area: dt-story;}
 .bkgd-aff1 {grid-column: 2 / span 2; grid-row: 11 / span 1; background: #EAEBED;}
 .bkgd-aff2 {grid-column: 2 / span 2; grid-row: 12 / span 1; background: #EAEBED;}
 .bkgd-story {grid-column: 2 / span 2; grid-row: 10 / span 1; background: #e26a48;}
-.dt-story, .dt-portrait {width: 40vw; display: block; margin: 5vw auto 5vw auto; box-shadow: 0px 0px 9px #3a2924;}
+.dt-story, .dt-portrait {width: 700px; display: block; margin: 5vw auto 5vw auto; box-shadow: 0px 0px 9px #3a2924;}
 .dt-aff1-full, .dt-aff2-full {width: 40vw; display: block; margin: 5vw auto 5vw auto; box-shadow: 0px 0px 20px #bbbbba;}
 
 																							/* WORK 07 */
 .project07-details{
 display: grid;
-grid-template-columns: 25% 25% 25% 25%;
+grid-template-columns: auto 500px 500px auto;
 grid-template-rows: 350px repeat(3,auto);
 grid-area: content;
 grid-template-areas:
