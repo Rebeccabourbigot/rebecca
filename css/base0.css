@@ -2,7 +2,7 @@
 	.grid-content {
 		grid-template-columns: repeat(2,1fr);
 		grid-template-rows: repeat(3,700px);
-		grid-column-gap: 10vw;
+		grid-column-gap: 7vw;
 		grid-row-gap: 100px;
 		margin: auto;
 	}
